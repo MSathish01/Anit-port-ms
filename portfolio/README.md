@@ -17,6 +17,7 @@ A modern, responsive portfolio website built with Next.js 14, TypeScript, Tailwi
 - **About** - Personal details and quick stats
 - **Skills** - Technical skills with animated badges
 - **Experience** - Timeline-based work experience
+- **Education** - Academic qualifications and achievements
 - **Projects** - Featured projects with GitHub links
 - **Achievements** - Awards and recognition
 - **Contact** - Contact form and information

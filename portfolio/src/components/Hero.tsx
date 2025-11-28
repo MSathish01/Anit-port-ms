@@ -3,9 +3,8 @@
 import { motion } from "framer-motion";
 import { Eye, Github, Linkedin, Mail } from "lucide-react";
 import { portfolioData } from "@/data/portfolio";
-
 import Image from "next/image";
-import BackgroundAnimation from "@/components/BackgroundAnimation";
+
 
 export default function Hero() {
     const handleViewResume = () => {
@@ -17,8 +16,6 @@ export default function Hero() {
             id="home"
             className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden"
         >
-            <BackgroundAnimation />
-
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Text Content */}

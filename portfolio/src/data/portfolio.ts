@@ -89,4 +89,31 @@ export const portfolioData = {
         "2nd Runner-Up — One Yes Hackathon 2024",
         "Smart India Hackathon Participant — 2023",
     ],
+    education: [
+        {
+            degree: "B.Tech",
+            field: "Computer Science & Engineering",
+            institution: "Sri Venkateshwaraa College of Engineering and Technology",
+            location: "Puducherry, India",
+            duration: "2023 - 2027",
+            status: "Currently Pursuing",
+            cgpa: 8.5,
+        },
+        {
+            degree: "HSC (Higher Secondary)",
+            field: "Biology",
+            institution: "Jeevaratham Gov Hr. Sec School",
+            location: "Nellithope, Puducherry",
+            duration: "2021 - 2023",
+            percentage: 74.3,
+        },
+        {
+            degree: "SSLC (Secondary School)",
+            field: "General",
+            institution: "T.S.M. Gov Hr. School",
+            location: "Murungakkam, Puducherry",
+            duration: "2019 - 2021",
+            percentage: 75,
+        },
+    ],
 };
