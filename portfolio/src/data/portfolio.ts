@@ -85,9 +85,23 @@ export const portfolioData = {
         },
     ],
     achievements: [
-        "Best Technical Approach Award — Agentic AI Hackathon 2025",
-        "2nd Runner-Up — One Yes Hackathon 2024",
-        "Smart India Hackathon Participant — 2023",
+        {
+            title: "Best Technical Approach Award — Agentic AI Hackathon 2025",
+            image: "/agentic-ai-hackathon.jpg"
+        },
+        {
+            title: "Innovation, Design and Entrepreneurship (IDE) Bootcamp - 2025",
+            image: "/ide-bootcamp.jpg"
+        },
+        {
+            title: "2nd Runner-Up — One Yes Hackathon 2024",
+            image: "/oneyes-hackathon.jpg"
+        },
+        {
+            title: "Sprintathon'25 — Top 100 Team in India (out of 1000+ teams)",
+            image: "/sprintathon-2025.jpg"
+        },
+        { title: "Smart India Hackathon Participant — 2025" },
     ],
     education: [
         {

@@ -29,10 +29,20 @@ export default function Achievements() {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             className="bg-card p-6 rounded-xl border border-border flex flex-col items-center text-center hover:border-primary/50 transition-colors"
                         >
-                            <div className="w-12 h-12 bg-yellow-500/10 rounded-full flex items-center justify-center text-yellow-500 mb-4">
-                                <Trophy size={24} />
-                            </div>
-                            <p className="font-medium text-lg">{achievement}</p>
+                            {achievement.image ? (
+                                <div className="w-full h-48 mb-4 relative overflow-hidden rounded-lg">
+                                    <img
+                                        src={achievement.image}
+                                        alt={achievement.title}
+                                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                                    />
+                                </div>
+                            ) : (
+                                <div className="w-12 h-12 bg-yellow-500/10 rounded-full flex items-center justify-center text-yellow-500 mb-4">
+                                    <Trophy size={24} />
+                                </div>
+                            )}
+                            <p className="font-medium text-lg">{achievement.title}</p>
                         </motion.div>
                     ))}
                 </div>
