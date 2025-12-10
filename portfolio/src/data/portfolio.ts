@@ -7,7 +7,7 @@ export const portfolioData = {
         location: "Puducherry, India",
         linkedin: "https://linkedin.com/in/sathish-m-6a5022331",
         github: "https://github.com/MSathish01",
-        resume: "/Sathish_M_Resume.pdf",
+        resume: "/Sathish-Resume.pdf",
     },
     summary:
         "AI/ML Engineer skilled in building machine learning models, NLP systems, predictive analytics applications, and full-stack AI-driven platforms. Strong in Python, Scikit-learn, Pandas, Flask, React, Node.js, and Docker. Passionate about delivering scalable ML solutions with measurable impact.",
