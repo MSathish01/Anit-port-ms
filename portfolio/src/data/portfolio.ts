@@ -7,7 +7,7 @@ export const portfolioData = {
         location: "Puducherry, India",
         linkedin: "https://linkedin.com/in/sathish-m-6a5022331",
         github: "https://github.com/MSathish01",
-        resume: "/Sathish-Resume.pdf",
+        resume: "/Anit-port-ms/Sathish-Resume.pdf",
     },
     summary:
         "AI/ML Engineer skilled in building machine learning models, NLP systems, predictive analytics applications, and full-stack AI-driven platforms. Strong in Python, Scikit-learn, Pandas, Flask, React, Node.js, and Docker. Passionate about delivering scalable ML solutions with measurable impact.",
@@ -87,19 +87,19 @@ export const portfolioData = {
     achievements: [
         {
             title: "Best Technical Approach Award — Agentic AI Hackathon 2025",
-            image: "/agentic-ai-hackathon.jpg"
+            image: "/Anit-port-ms/agentic-ai-hackathon.jpg"
         },
         {
             title: "Innovation, Design and Entrepreneurship (IDE) Bootcamp - 2025",
-            image: "/ide-bootcamp.jpg"
+            image: "/Anit-port-ms/ide-bootcamp.jpg"
         },
         {
             title: "2nd Runner-Up — One Yes Hackathon 2024",
-            image: "/oneyes-hackathon.jpg"
+            image: "/Anit-port-ms/oneyes-hackathon.jpg"
         },
         {
             title: "Sprintathon'25 — Top 100 Team in India (out of 1000+ teams)",
-            image: "/sprintathon-2025.jpg"
+            image: "/Anit-port-ms/sprintathon-2025.jpg"
         },
         { title: "Smart India Hackathon Participant — 2025" },
     ],

@@ -111,7 +111,7 @@ export default function Hero() {
 
                         <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl shadow-primary/20">
                             <Image
-                                src="/profile.jpg"
+                                src="/Anit-port-ms/profile.jpg"
                                 alt={portfolioData.personal.name}
                                 fill
                                 className="object-cover hover:scale-110 transition-transform duration-500"
