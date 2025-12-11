@@ -108,12 +108,21 @@ export default function Hero() {
                         {/* Glowing Blob Background */}
                         <div className="absolute inset-0 bg-primary/30 blur-[100px] rounded-full scale-75 animate-pulse" />
 
-                        <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl shadow-primary/20">
+                        <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl shadow-primary/20 bg-gradient-to-br from-primary/20 to-primary/40">
                             <img
                                 src="/Anit-port-ms/profile.jpg"
                                 alt={portfolioData.personal.name}
-                                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                                className="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-500"
+                                onError={(e) => {
+                                    const target = e.target as HTMLImageElement;
+                                    target.style.display = 'none';
+                                }}
+                                loading="eager"
                             />
+                            {/* Fallback content if image fails to load */}
+                            <div className="absolute inset-0 flex items-center justify-center text-6xl font-bold text-primary/60">
+                                {portfolioData.personal.name.charAt(0)}
+                            </div>
                         </div>
 
                         {/* Floating Badge */}
