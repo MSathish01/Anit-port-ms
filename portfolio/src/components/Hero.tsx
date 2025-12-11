@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Hero() {
     const handleViewResume = () => {
-        window.open('/Sathish-Resume.pdf', '_blank');
+        window.open('/Anit-port-ms/Sathish-Resume.pdf', '_blank');
     };
 
     return (
