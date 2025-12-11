@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { Eye, Github, Linkedin, Mail } from "lucide-react";
 import { portfolioData } from "@/data/portfolio";
-import Image from "next/image";
 
 
 export default function Hero() {
@@ -110,12 +109,10 @@ export default function Hero() {
                         <div className="absolute inset-0 bg-primary/30 blur-[100px] rounded-full scale-75 animate-pulse" />
 
                         <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl shadow-primary/20">
-                            <Image
+                            <img
                                 src="/Anit-port-ms/profile.jpg"
                                 alt={portfolioData.personal.name}
-                                fill
-                                className="object-cover hover:scale-110 transition-transform duration-500"
-                                priority
+                                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                             />
                         </div>
 
