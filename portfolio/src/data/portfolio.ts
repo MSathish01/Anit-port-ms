@@ -101,7 +101,6 @@ export const portfolioData = {
             title: "Sprintathon'25 — Top 100 Team in India (out of 1000+ teams)",
             image: "/Anit-port-ms/sprintathon-2025.jpg"
         },
-        { title: "Smart India Hackathon Participant — 2025" },
     ],
     education: [
         {

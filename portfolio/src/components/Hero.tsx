@@ -113,16 +113,8 @@ export default function Hero() {
                                 src="/Anit-port-ms/profile.jpg"
                                 alt={portfolioData.personal.name}
                                 className="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-500"
-                                onError={(e) => {
-                                    const target = e.target as HTMLImageElement;
-                                    target.style.display = 'none';
-                                }}
                                 loading="eager"
                             />
-                            {/* Fallback content if image fails to load */}
-                            <div className="absolute inset-0 flex items-center justify-center text-6xl font-bold text-primary/60">
-                                {portfolioData.personal.name.charAt(0)}
-                            </div>
                         </div>
 
                         {/* Floating Badge */}
